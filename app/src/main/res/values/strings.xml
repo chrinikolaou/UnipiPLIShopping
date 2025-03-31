@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">UnipiPLIShopping</string>
+
+    <!--  Login Attributes  -->
+    <string name="login_submit_button">Log In</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_continue">or continue with</string>
+    <string name="login_forgot_password"><u>Forgot your password?</u></string>
+
+
+    <!--  Register Attributes  -->
+    <string name="register_submit_button">Sign Up</string>
+    <string name="register_email">Email</string>
+    <string name="register_username">Username</string>
+    <string name="register_password">Password</string>
+    <string name="register_not_registered"><u>Don\'t have an account?</u></string>
+    <string name="register_has_account"><u>Already have an account? Login.</u></string>
+
+    <!--  Register Method Attributes  -->
+    <string name="register_method_text_intro">Endless choices of mobile phones. All at UniShopping.</string>
+    <string name="register_method_text_email">Sign Up with Email</string>
+    <string name="register_method_text_google">Continue with Google</string>
+    <string name="register_method_text_discord">Continue with Discord</string>
+
+    <!--  Near Me Attributes  -->
+    <string name="nearme_text_info">Stay in this screen to be alerted of close to you products!</string>
+    <string name="nearme_radius_text">Radius: %d</string>
+    <string name="nearme_location">Your Position: (%d,%d)</string>
+    <string name="nearme_products">Loaded Products: %d</string>
+
+    <!--  Account Attributes  -->
+    <string name="account_label_name">Name</string>
+    <string name="account_label_age">Age</string>
+    <string name="account_label_gender">Gender</string>
+    <string name="account_logout">Logout</string>
+    <string name="account_save">Save</string>
+
+    <!--  Order Attributes  -->
+    <string name="product_btn">Buy</string>
+
+</resources>

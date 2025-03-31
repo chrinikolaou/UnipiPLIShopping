@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register_method"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterMethodActivity">
+
+
+    <Button
+        android:id="@+id/register_method_btn_discord"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="548dp"
+        android:background="@drawable/button_transparent"
+        android:fontFamily="@font/ubuntu"
+        android:onClick="unsupported"
+        android:text="@string/register_method_text_discord"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/register_method_btn_email"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="412dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/ubuntu"
+        android:onClick="show"
+        android:text="@string/register_method_text_email"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/register_method_btn_google"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/button_transparent"
+        android:fontFamily="@font/ubuntu"
+        android:onClick="unsupported"
+        android:text="@string/register_method_text_google"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="146dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_light" />
+
+    <TextView
+        android:id="@+id/register_method_intro"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="304dp"
+        android:text="@string/register_method_text_intro"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
